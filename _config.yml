@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------------------
+# GitHub Pages / Jekyll configuration
+# Edit the values in `project:` — everything on the page reads from here.
+# ---------------------------------------------------------------------------
+
+title: "RiskPrism: Aligning Visual Evidence for Physical Risk Reasoning in Vision-Language Models"
+description: "A benchmark and practical techniques for aligning visual evidence for physical risk reasoning in vision-language models."
+url: "https://roborisk.github.io"
+# Must match the path the site is published under, or every asset 404s.
+# For a user/org site (roborisk.github.io) or a custom domain, set this to "".
+# Local preview overrides it via _config.dev.yml — see the README.
+baseurl: "/riskprism"
+
+project:
+  short_name: "RiskPrism"
+  venue: "Under Review"
+  # Set a link to "" to hide that button.
+  links:
+    paper: ""
+    arxiv: ""
+    code: "https://github.com/roborisk/riskprism"
+    dataset: ""
+    deployment: "#gauntlet"
+    bibtex: "#citation"
+    template: "https://github.com/riadahmedunh/tail_safe"
+  # Social / link preview card
+  og_image: "assets/images/teaser.jpg"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

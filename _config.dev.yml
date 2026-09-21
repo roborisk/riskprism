@@ -1,0 +1,8 @@
+# Local-preview overrides. Layered on top of _config.yml so `jekyll serve`
+# hosts the page at http://127.0.0.1:4000/ instead of /riskprism/:
+#
+#   bundle exec jekyll serve --config _config.yml,_config.dev.yml
+#
+# Never referenced by either deploy path.
+baseurl: ""
+url: "http://127.0.0.1:4000"
